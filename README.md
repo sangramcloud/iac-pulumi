@@ -39,27 +39,10 @@
 
  
 
-4. modify index.js
+4. modify pulumi.demo.yaml file with the values of your interest of the variables, subnets, region, availablity zones, CIDR range for VPC and Subnets, no. of public or private subnets etc.
 
-    a. Create Virtual Private Cloud (VPC). \n
 
-    b. Create subnets -> 3 public subnets and 3 private subnets. \n
-
-    c. Create an Internet Gateway resource and attach the Internet Gateway to the VPC. \n
-
-    d. Create a public route table. Attach all public subnets created to the route table. \n
-
-    e. Create a private route table. Attach all private subnets created to the route table. \n
-
-    f. Create a public route in the public route table with the destination CIDR block 0.0.0.0/0 and the internet gateway the target. \n
-
- 
-
-5. update pulumi.dev.yaml with all the environment variables
-
- 
-
-6. to execute the resources
+5. to execute the resources
 
     ```pulumi up```
 
@@ -70,7 +53,3 @@
     and to refresh the resources
 
     ```pulumi refresh```
-
-has context menu
-
-<!-- fsdaf -->
