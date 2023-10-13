@@ -1,3 +1,4 @@
+
 "use strict";
 const pulumi = require("@pulumi/pulumi");
 const aws = require("@pulumi/aws");
@@ -135,7 +136,6 @@ for(let k=1; k<= configFile.numOfPriSubnets; k++){
 //     routeTableId:private_routeTable.id,
 //     subnetId:pri_subnet.id
 // });
-
 
 
 
