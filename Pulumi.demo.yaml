@@ -16,3 +16,4 @@ ami:  "ami-00408c58689358f90"
 volumeSize: 20
 volumeType: "gp2"
 myIP: "155.33.132.23/32"
+
